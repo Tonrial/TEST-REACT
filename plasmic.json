@@ -1,0 +1,692 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "seaQhLVS4bbjiGvJJrRwyL",
+      "projectApiToken": "nPw276qGsy9kISQCHrcRrsj3Y9Yva9TMyYKNUpoOMOHgRj1A51qOC6LMB2185QlA52K87n32oQJHSi5be9w",
+      "projectName": "LIBRARY Plasmic Color + Type",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/library_plasmic_color_type/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [],
+      "customFunctions": []
+    },
+    {
+      "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+      "projectApiToken": "X01MBNk6j4xgjeQIYzEE0DjOAikvMDdx69Nyc1Jkxj2LhsPuTyTEUjmkilmQNHh0aBXJMs2hO0ZGyGcxCPDQ",
+      "projectName": "Beverage Products",
+      "version": "latest",
+      "cssFilePath": "plasmic/beverage_products/plasmic.module.css",
+      "components": [
+        {
+          "id": "iyWVk_i71ToX",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicHome.tsx",
+          "importSpec": {
+            "modulePath": "Home.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "H_FQvVQXsCKf",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicHeader.tsx",
+          "importSpec": {
+            "modulePath": "Header.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HsNK5ebTR0fC",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicFooter.tsx",
+          "importSpec": {
+            "modulePath": "Footer.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "No0fu08c8RY0",
+          "name": "FeatureItem",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicFeatureItem.tsx",
+          "importSpec": {
+            "modulePath": "FeatureItem.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicFeatureItem.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Fa-xvMQlozvg",
+          "name": "ProductCard",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicProductCard.tsx",
+          "importSpec": {
+            "modulePath": "ProductCard.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicProductCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "0DcRn4RWBefW",
+          "name": "LinkButton",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicLinkButton.tsx",
+          "importSpec": {
+            "modulePath": "LinkButton.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicLinkButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "_m5dRu-oVjUe",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicIconLink.tsx",
+          "importSpec": {
+            "modulePath": "IconLink.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "R0iXjF82QZwu",
+          "name": "MenuButton",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicMenuButton.tsx",
+          "importSpec": {
+            "modulePath": "MenuButton.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicMenuButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "JuwEOmGERcqq",
+          "name": "BlogPost",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicBlogPost.tsx",
+          "importSpec": {
+            "modulePath": "BlogPost.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicBlogPost.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "HAxYssxr6o1S",
+          "name": "Ratings",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicRatings.tsx",
+          "importSpec": {
+            "modulePath": "Ratings.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicRatings.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "915czgUntfeX",
+          "name": "ProductCarousel",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicProductCarousel.tsx",
+          "importSpec": {
+            "modulePath": "ProductCarousel.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicProductCarousel.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "EYd-hZyIjGXk",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+          "renderModuleFilePath": "plasmic/beverage_products/PlasmicButton.tsx",
+          "importSpec": {
+            "modulePath": "Button.tsx"
+          },
+          "cssFilePath": "plasmic/beverage_products/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        }
+      ],
+      "icons": [
+        {
+          "id": "n3wqtK0kVSJi",
+          "name": "SearchIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Search.tsx"
+        },
+        {
+          "id": "PvplD02V3Yb3",
+          "name": "CogIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Cog.tsx"
+        },
+        {
+          "id": "lVgKlqPGWjkn",
+          "name": "ShoppingCartIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__ShoppingCart.tsx"
+        },
+        {
+          "id": "aPEnX6566dvp",
+          "name": "TimesIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Times.tsx"
+        },
+        {
+          "id": "IyWDxcEYPghl",
+          "name": "BarsIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Bars.tsx"
+        },
+        {
+          "id": "aJ0jnFETXyPU",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Logo.tsx"
+        },
+        {
+          "id": "4A1R7KtXgQgW",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Sphere.tsx"
+        },
+        {
+          "id": "inCkBQTwHsSs",
+          "name": "FacebookIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Facebook.tsx"
+        },
+        {
+          "id": "gWo5Nk9SpaQi",
+          "name": "InstagramIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Instagram.tsx"
+        },
+        {
+          "id": "NZo5HGykEpjm",
+          "name": "LinkedinIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Linkedin.tsx"
+        },
+        {
+          "id": "STleH7NdYC17",
+          "name": "LocationArrowIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__LocationArrow.tsx"
+        },
+        {
+          "id": "LQLSFRXiO65Q",
+          "name": "StarOIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__StarO.tsx"
+        },
+        {
+          "id": "bfbry6x0G5k-",
+          "name": "StarIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Star.tsx"
+        },
+        {
+          "id": "uS9u2eSabBsc",
+          "name": "ExpandIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Expand.tsx"
+        },
+        {
+          "id": "To7vvLPh2tI8",
+          "name": "HeartOIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__HeartO.tsx"
+        },
+        {
+          "id": "jIJyVwK188Kp",
+          "name": "DotCircleOIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__DotCircleO.tsx"
+        },
+        {
+          "id": "J8oZz8WkkHsh",
+          "name": "CircleOIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__CircleO.tsx"
+        },
+        {
+          "id": "vM84Bz-J9N01",
+          "name": "CheckSvgIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__CheckSvg.tsx"
+        },
+        {
+          "id": "PDE7xavL_ool",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "kGqDBLYTsO-d",
+          "name": "Icon3Icon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Icon3.tsx"
+        },
+        {
+          "id": "Y--5hDXT9O2e",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "yetzjuODzzNu",
+          "name": "Icon28Icon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Icon28.tsx"
+        },
+        {
+          "id": "HDvbx3Llbn9W",
+          "name": "Icon4Icon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Icon4.tsx"
+        },
+        {
+          "id": "HWxUF6904FIV",
+          "name": "Icon5Icon",
+          "moduleFilePath": "plasmic/beverage_products/icons/PlasmicIcon__Icon5.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "DkfwI_Oqfwsh",
+          "name": "plasmic",
+          "filePath": "plasmic/beverage_products/images/plasmic.png"
+        },
+        {
+          "id": "PLmJE_k-m2dB",
+          "name": "adidas",
+          "filePath": "plasmic/beverage_products/images/adidas.png"
+        },
+        {
+          "id": "Gj0wKHAgdt4r",
+          "name": "hm",
+          "filePath": "plasmic/beverage_products/images/hm.png"
+        },
+        {
+          "id": "8egVcKkhtzjS",
+          "name": "kappa",
+          "filePath": "plasmic/beverage_products/images/kappa.png"
+        },
+        {
+          "id": "WBSpmIpb14oS",
+          "name": "lacoste",
+          "filePath": "plasmic/beverage_products/images/lacoste.png"
+        },
+        {
+          "id": "DD3WKCKTfPG4",
+          "name": "levis",
+          "filePath": "plasmic/beverage_products/images/levis.png"
+        },
+        {
+          "id": "2W2lZN4vy-ac",
+          "name": "b1",
+          "filePath": "plasmic/beverage_products/images/b1.jpg"
+        },
+        {
+          "id": "BGhTvsUZOIuh",
+          "name": "b2",
+          "filePath": "plasmic/beverage_products/images/b2.jpg"
+        },
+        {
+          "id": "mq7D3EiJrHjG",
+          "name": "b3",
+          "filePath": "plasmic/beverage_products/images/b3.jpg"
+        },
+        {
+          "id": "1WHjBlsTUw9C",
+          "name": "f1",
+          "filePath": "plasmic/beverage_products/images/f1.jpg"
+        },
+        {
+          "id": "iaOjTo9mgXE6",
+          "name": "f2",
+          "filePath": "plasmic/beverage_products/images/f2.jpg"
+        },
+        {
+          "id": "R8aiTtyo_1Fh",
+          "name": "f3",
+          "filePath": "plasmic/beverage_products/images/f3.jpg"
+        },
+        {
+          "id": "pv9Idw9hwaQj",
+          "name": "f4",
+          "filePath": "plasmic/beverage_products/images/f4.jpg"
+        },
+        {
+          "id": "Z0Sc6y5hiGXe",
+          "name": "table-banner",
+          "filePath": "plasmic/beverage_products/images/tableBanner.jpg"
+        },
+        {
+          "id": "8Dkx1CiV_VK1",
+          "name": "arrivals1",
+          "filePath": "plasmic/beverage_products/images/arrivals1.png"
+        },
+        {
+          "id": "QYZNBZ5QQKnv",
+          "name": "arrivals2",
+          "filePath": "plasmic/beverage_products/images/arrivals2.png"
+        },
+        {
+          "id": "Ryx8nzwQhnel",
+          "name": "arrivals3",
+          "filePath": "plasmic/beverage_products/images/arrivals3.png"
+        },
+        {
+          "id": "14OMoBzqHmMJ",
+          "name": "arrivals4",
+          "filePath": "plasmic/beverage_products/images/arrivals4.png"
+        },
+        {
+          "id": "RNyx7OtycUoR",
+          "name": "arrivals5",
+          "filePath": "plasmic/beverage_products/images/arrivals5.png"
+        },
+        {
+          "id": "axIT9dwkrgjb",
+          "name": "arrivals6",
+          "filePath": "plasmic/beverage_products/images/arrivals6.png"
+        },
+        {
+          "id": "Wg0EcYrDqJLg",
+          "name": "arrivals7",
+          "filePath": "plasmic/beverage_products/images/arrivals7.png"
+        },
+        {
+          "id": "rvz304eMPYE6",
+          "name": "arrivals8",
+          "filePath": "plasmic/beverage_products/images/arrivals8.png"
+        },
+        {
+          "id": "Mf91uS-dVzTE",
+          "name": "slider1",
+          "filePath": "plasmic/beverage_products/images/slider1.png"
+        },
+        {
+          "id": "ZEKxY9V661oc",
+          "name": "slider2",
+          "filePath": "plasmic/beverage_products/images/slider2.png"
+        },
+        {
+          "id": "3cgAYYzWOb6u",
+          "name": "slider3",
+          "filePath": "plasmic/beverage_products/images/slider3.png"
+        },
+        {
+          "id": "Zq7cukSRmbBt",
+          "name": "ecaa1a9f-59e0-4714-aca4-d68090e95ef2_fuel-bg_png.png",
+          "filePath": "plasmic/beverage_products/images/ecaa1A9F59E04714Aca4D68090E95Ef2FuelBgPngPng.png"
+        },
+        {
+          "id": "6pfvNztDCWdz",
+          "name": "85c8d5cf-279f-4126-9c84-66064e146430_fuel-logo_png.png",
+          "filePath": "plasmic/beverage_products/images/_85C8D5Cf279F41269C8466064E146430FuelLogoPngPng.png"
+        },
+        {
+          "id": "Lec_I59ofsuG",
+          "name": "38387a20-ebc5-4199-9979-22869ab2aabe_fuel-pouch_png.png",
+          "filePath": "plasmic/beverage_products/images/_38387A20Ebc54199997922869Ab2AabeFuelPouchPngPng.png"
+        },
+        {
+          "id": "2OzuB-V9wWW9",
+          "name": "e7ee5f1e-b703-486f-950f-33cd6f5328b5_block_cloud_8bit_compressed_png.png",
+          "filePath": "plasmic/beverage_products/images/e7Ee5F1EB703486F950F33Cd6F5328B5BlockCloud8BitCompressedPngPng.png"
+        },
+        {
+          "id": "L4Br7rXpPdok",
+          "name": "639a1ce8-2706-498c-882a-99c2c5fe541d_fuel-no_png.png",
+          "filePath": "plasmic/beverage_products/images/_639A1Ce82706498C882A99C2C5Fe541DFuelNoPngPng.png"
+        },
+        {
+          "id": "ZhYlFu0hTz4C",
+          "name": "b6f85cb6-11df-48f7-9d80-6a0c0ffc2da2_fuel-orange_png.png",
+          "filePath": "plasmic/beverage_products/images/b6F85Cb611Df48F79D806A0C0Ffc2Da2FuelOrangePngPng.png"
+        },
+        {
+          "id": "G6_nvOD8aJtd",
+          "name": "c828efc1-6089-48dc-b6df-623c4361e363_fuel-black_png.png",
+          "filePath": "plasmic/beverage_products/images/c828Efc1608948DcB6Df623C4361E363FuelBlackPngPng.png"
+        },
+        {
+          "id": "eMEoSTtaNRs0",
+          "name": "b5b6c6f7-12b2-4ab3-9c68-cabd3e472796_fuel-blue_png.png",
+          "filePath": "plasmic/beverage_products/images/b5B6C6F712B24Ab39C68Cabd3E472796FuelBluePngPng.png"
+        },
+        {
+          "id": "GgveDxPHnlru",
+          "name": "Capture.PNG",
+          "filePath": "plasmic/beverage_products/images/capturePng.png"
+        },
+        {
+          "id": "OHOCzpIjoT0y",
+          "name": "5593e9cb-c221-45ae-bc3d-c8996740ae3c_fuel-orange-plant_png.png",
+          "filePath": "plasmic/beverage_products/images/_5593E9CbC22145AeBc3DC8996740Ae3CFuelOrangePlantPngPng.png"
+        },
+        {
+          "id": "SurWPMAP_DmH",
+          "name": "d1607aa1-1f0b-4328-836a-514ab57def41_fuel-hearts_png.png",
+          "filePath": "plasmic/beverage_products/images/d1607Aa11F0B4328836A514Ab57Def41FuelHeartsPngPng.png"
+        },
+        {
+          "id": "EYswJm6mbqPp",
+          "name": "heart-431 (1).svg",
+          "filePath": "plasmic/beverage_products/images/heart4311Svg.svg"
+        },
+        {
+          "id": "5YhlSejXOYcN",
+          "name": "heart-431.png",
+          "filePath": "plasmic/beverage_products/images/heart431Png.png"
+        },
+        {
+          "id": "AObKA7HZv3dw",
+          "name": "Teemly.png",
+          "filePath": "plasmic/beverage_products/images/teemlyPng.png"
+        },
+        {
+          "id": "YRW5sl2cr0pV",
+          "name": "Hera.png",
+          "filePath": "plasmic/beverage_products/images/heraPng.png"
+        },
+        {
+          "id": "OUgzEqj8DyLO",
+          "name": "Notion journal.png",
+          "filePath": "plasmic/beverage_products/images/notionJournalPng.png"
+        },
+        {
+          "id": "5VaJX0nf1qZh",
+          "name": "Nucba.png",
+          "filePath": "plasmic/beverage_products/images/nucbaPng.png"
+        },
+        {
+          "id": "O2YMSPzO7Fmu",
+          "name": "kana.png",
+          "filePath": "plasmic/beverage_products/images/kanaPng.png"
+        },
+        {
+          "id": "zbs9b60bUjHX",
+          "name": "Getly.png",
+          "filePath": "plasmic/beverage_products/images/getlyPng.png"
+        },
+        {
+          "id": "Dtu4LzHWBo-l",
+          "name": "vegetable-juices-1725835_1280.jpg",
+          "filePath": "plasmic/beverage_products/images/vegetableJuices17258351280Jpg.jpg"
+        },
+        {
+          "id": "vC0vu-RAtFfp",
+          "name": "banner-single.png",
+          "filePath": "plasmic/beverage_products/images/bannerSinglePng.png"
+        },
+        {
+          "id": "FxbNdvHv6GkH",
+          "name": "vegetable-juices-1725835_1280-removebg-preview.png",
+          "filePath": "plasmic/beverage_products/images/vegetableJuices17258351280RemovebgPreviewPng.png"
+        },
+        {
+          "id": "Faxiws4lo2Gk",
+          "name": "Kiwi-Juice-PNG.png",
+          "filePath": "plasmic/beverage_products/images/kiwiJuicePngPng.png"
+        },
+        {
+          "id": "NDDJ8J1lVE3p",
+          "name": "354-3549849_welcome-to-the-world-of-delicacy-juice-from.png",
+          "filePath": "plasmic/beverage_products/images/_3543549849WelcomeToTheWorldOfDelicacyJuiceFromPng.jpg"
+        },
+        {
+          "id": "lJN0JYJBhcQE",
+          "name": "lemon-2610759_1920.jpg",
+          "filePath": "plasmic/beverage_products/images/lemon26107591920Jpg.jpg"
+        },
+        {
+          "id": "PnzJiAWw33Tg",
+          "name": "natural-seo-link-building-strategies.jpg",
+          "filePath": "plasmic/beverage_products/images/naturalSeoLinkBuildingStrategiesJpg.jpg"
+        },
+        {
+          "id": "zQhcSeyW8gXf",
+          "name": "51c5LRHnC0L.jpg",
+          "filePath": "plasmic/beverage_products/images/_51C5LrHnC0LJpg.jpg"
+        },
+        {
+          "id": "vr-Fd2A2k7YZ",
+          "name": "bath-oil-2510783_1920.jpg",
+          "filePath": "plasmic/beverage_products/images/bathOil25107831920Jpg.jpg"
+        },
+        {
+          "id": "JFoq3qVi9GZG",
+          "name": "table-3220967_1920.jpg",
+          "filePath": "plasmic/beverage_products/images/table32209671920Jpg.jpg"
+        },
+        {
+          "id": "cvcZYY6NgR4_",
+          "name": "banner-main-product-plasmic.jpg",
+          "filePath": "plasmic/beverage_products/images/bannerMainProductPlasmicJpg.jpg"
+        },
+        {
+          "id": "FzUgsiasp_pp",
+          "name": "image",
+          "filePath": "plasmic/beverage_products/images/image.png"
+        },
+        {
+          "id": "eHiMRm6UoXNS",
+          "name": "image 2",
+          "filePath": "plasmic/beverage_products/images/image2.jpg"
+        },
+        {
+          "id": "SHQ3l909npEI",
+          "name": "image 3",
+          "filePath": "plasmic/beverage_products/images/image3.png"
+        },
+        {
+          "id": "QBPAE1GV7Ff-",
+          "name": "image 4",
+          "filePath": "plasmic/beverage_products/images/image4.jpg"
+        },
+        {
+          "id": "ahRhWAM6VHsR",
+          "name": "image 5",
+          "filePath": "plasmic/beverage_products/images/image5.png"
+        },
+        {
+          "id": "zaFijzCOLoh8",
+          "name": "image 6",
+          "filePath": "plasmic/beverage_products/images/image6.png"
+        },
+        {
+          "id": "QPOl7iOoXcgl",
+          "name": "image 7",
+          "filePath": "plasmic/beverage_products/images/image7.png"
+        },
+        {
+          "id": "Ij_6JBk6xap4",
+          "name": "image 8",
+          "filePath": "plasmic/beverage_products/images/image8.png"
+        },
+        {
+          "id": "qYJyTvdvjWBA",
+          "name": "image 9",
+          "filePath": "plasmic/beverage_products/images/image9.png"
+        },
+        {
+          "id": "F0DqiwNxVxG6",
+          "name": "image 10",
+          "filePath": "plasmic/beverage_products/images/image10.png"
+        },
+        {
+          "id": "OzmRyTNGBqO0",
+          "name": "image 11",
+          "filePath": "plasmic/beverage_products/images/image11.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "LheZfhxtxk02",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "S3zbvbSM7Flz",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "AivqEbSXyMHM",
+        "name": "Screen",
+        "projectId": "a6DipB8QpCpKA67GUeQ1zH",
+        "contextFilePath": "plasmic/beverage_products/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
+}
